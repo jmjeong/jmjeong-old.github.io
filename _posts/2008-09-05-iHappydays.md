@@ -3,7 +3,7 @@ layout: post
 title: iHappyDays
 description: 
 category: 
-tags:  ios
+tags:  ios happydays
 ---
 {% include JB/setup %}
 
