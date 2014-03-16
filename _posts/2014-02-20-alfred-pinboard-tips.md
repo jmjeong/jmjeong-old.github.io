@@ -6,10 +6,13 @@ tags: alfred pinboard python
 ---
 {% include JB/setup %}
 
-Github에 공개한 [alfred-pinboard](https://github.com/jmjeong/alfred-extension/tree/master/pinboard)를 이용한 bookmark 관리 Tip입니다. 
-저는 pinboard로 모든 자료를 옮긴 후에 safari에는 pinboard에 bookmark를 저장하는 bookmarklet과 pinboard로 가는 link만 버튼으로 남겨두었습니다. 
+Github에 공개한 [alfred-pinboard](https://github.com/jmjeong/alfred-extension/tree/master/pinboard)를
+이용한 bookmark 관리 Tip입니다.  저는 pinboard로 모든 자료를 옮긴 후에 safari에는 pinboard에
+bookmark를 저장하는 bookmarklet과 pinboard로 가는 link만 버튼으로 남겨두었습니다.
 
-hotkey로 특정 tag에 속한 bookmark 목록을 띄워주는 방법입니다. 
+<!-- more -->
+
+hotkey로 특정 tag에 속한 bookmark 목록을 띄워주는 방법입니다.
 
 ## 동작
 
