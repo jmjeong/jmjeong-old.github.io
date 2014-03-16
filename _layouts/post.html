@@ -1,0 +1,63 @@
+---
+layout: default
+---
+{% include JB/setup %}
+
+
+<div class="panel panel-default">
+  <div class="panel-body" style="margin-top:0px;padding-top:0px;">
+  <!-- page header -->
+  <div class="page-header">
+	<h1 style="font-size:32px;">{{ page.title }}<br />
+	  <small><!-- Supporting tagline --></small></h1>
+  </div>
+  
+
+  <!-- post content -->
+  <div class="row">
+	<div class="col-md-12">
+	  {{ content }}
+	</div>
+	<div class="panel-body">
+	  <!-- post info -->
+	  <p class="page-info">
+		<i class="fa fa-calendar"></i>
+		<span class="date">
+		  {{page.date | date: "%d %B %Y"}}
+		</span>
+		&nbsp; &nbsp; &nbsp;
+		  
+		<i class="fa fa-tag"></i>
+		{% for tag in page.tags %}
+		<a href="/tags.html#{{ tag }}-ref" style="color:darkgreen">
+		  {{ tag }}
+		</a>
+		&nbsp;
+		{% endfor %}
+	  </p>
+	</div>
+  </div>
+  <div class="row">
+	<div class="col-md-12">
+	  <hr>
+	  <ul class="pager">
+		{% if page.previous %}
+        <li class="previous"><a href="{{ BASE_PATH }}{{ page.previous.url }}"
+								title="{{ page.previous.title }}">&larr; Previous</a></li>
+		{% else %}
+        <li class="previous disabled"><a>&larr; Previous</a></li>
+		{% endif %}
+        <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
+		{% if page.next %}
+        <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}"
+							title="{{ page.next.title }}">Next &rarr;</a></li>
+		{% else %}
+        <li class="next disabled"><a>Next &rarr;</a>
+		  {% endif %}
+	  </ul>
+      <hr>
+	  {% include JB/comments %}
+	</div>
+  </div>
+  </div>
+</div>
