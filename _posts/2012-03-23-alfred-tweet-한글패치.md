@@ -3,7 +3,7 @@ layout: post
 title: alfred tweet 한글 패치
 description: 
 category: 
-tags: alfre
+tags: alfred
 ---
 {% include JB/setup %}
 
