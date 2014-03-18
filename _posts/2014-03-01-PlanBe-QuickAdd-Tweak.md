@@ -18,7 +18,7 @@ PlanBe의 QuickAdd에서 사용되는 [모든 syntax]({% post_url 2014-01-19-Pla
 
 <!-- more -->
 
-![](http://farm8.staticflickr.com/7246/13236660685_bbf2fee040_o.png)
+![](http://farm3.staticflickr.com/2861/13236950633_d22c8bc7ee_o.png)
 
 [http://cydia.myrepospace.com/jmjeong/](http://cydia.myrepospace.com/jmjeong/) 을 추가하고 'PlanBe
 QuickAdd'를 인스톨 하면 됩니다.  설치 후에 Preferences - Activator 에서 호출할 Action을 등록하면
