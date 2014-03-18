@@ -3,7 +3,7 @@ layout: post
 title: HappyDays - Palm
 description: 
 category: 
-tags:  palm palmprogram
+tags:  palm palmprogram happydays
 ---
 {% include JB/setup %}
 
@@ -46,6 +46,7 @@ I'd like to thank the following people who had helped me to develop the program:
 * Bevan Ting - who provided helpful comments and corrected many grammatical errors in HappyDays page. But if there remain any errors, it's due to my carelessness. 
 * And the many people who gave bug reports or suggestions for improvement. 
 
-#### Downloads
+#### Links
 
 - [HappyDays-Download]({% post_url 2004-03-08-HappyDays-Download %})
+- [HappyDays-Manual]({% post_url 2004-03-08-HappyDays-Manual %})
