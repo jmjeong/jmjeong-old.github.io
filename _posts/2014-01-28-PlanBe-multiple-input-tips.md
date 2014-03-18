@@ -8,7 +8,7 @@ tags: planbe ios
 
 PlanBe와 x-callback-url을 이용한 할 일 여러개 등록하는 Tip 입니다. 
 
-## 다수의 할 일을 한꺼번에 미리알림에 등록하기
+### 다수의 할 일을 한꺼번에 미리알림에 등록하기
 
 	namuplanbe://x-callback-url/parse?title=[[draft]]&type=t&x-source=Drafts&prompt=y&x-success={{drafts://}}
 
