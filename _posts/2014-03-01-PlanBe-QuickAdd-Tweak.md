@@ -18,10 +18,32 @@ PlanBe의 QuickAdd에서 사용되는 [모든 syntax]({% post_url 2014-01-19-Pla
 
 <!-- more -->
 
-![](http://farm3.staticflickr.com/2861/13236950633_d22c8bc7ee_o.png)
+![](http://farm8.staticflickr.com/7389/13240166863_677cb30fbc_o.png)
 
-[http://cydia.myrepospace.com/jmjeong/](http://cydia.myrepospace.com/jmjeong/) 을 추가하고 'PlanBe
-QuickAdd'를 인스톨 하면 됩니다.  설치 후에 Preferences - Activator 에서 호출할 Action을 등록하면
-됩니다.
+<!-- [http://cydia.myrepospace.com/jmjeong/](http://cydia.myrepospace.com/jmjeong/) 을 추가하고 'PlanBe -->
+<!-- QuickAdd'를 인스톨 하면 됩니다.  설치 후에 Preferences - Activator 에서 호출할 Action을 등록하면 -->
+<!-- 됩니다. -->
+
+BigBoss에서 PlanBe QuickAdd를 검색 후에 인스톨하면 됩니다. 설치 후에 'Preferences-Activator'에서
+호출할 Action을 등록하고 사용하면 됩니다. 
 
 - Credits : ThereIsPlanBe 위젯을 만들고 공개한 위쯔님께 돌립니다. 
+
+---
+
+### Program Source
+
+- [GitHub Link](https://github.com/jmjeong/PlanBeQuickAdd)
+
+### Build 및 제작 과정
+
+- [iosopendev.com](http://www.iosopendev.com)
+  - [Download](http://iosopendev.com/download/) : iOSOpenDev 1.6-2 Installer install
+- `iod-setup base`
+- 'iod-setup sdk`
+- 인스톨 할 장치에 `openssh` 인스톨 후에 ~root/.ssh에 `authorized_keys`에 접속할 device의 public key를 등록
+- .bash_profile에 `iOSOpenDevDevice`에 IP 지정
+{% highlight console %}
+	export iOSOpenDevDevice=192.168.0.100
+{% endhighlight %}
+- Product - Build for - Profiling 을 수행하면, Device에 자동으로 Install
