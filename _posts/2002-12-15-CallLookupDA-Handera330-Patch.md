@@ -3,7 +3,7 @@ layout: post
 title: CallLookupDA Handera330 Patch - Palm
 description: 
 category: 
-tags:  palm palmprogram
+tags: palm palmprogram
 ---
 {% include JB/setup %}
 
