@@ -17,7 +17,6 @@ tags: ios jailbreak
 - kuaidial - 키패드 초성 검색. (Source:http://apt.iolate.kr/)
 - CCToggles - 숨겨진 설정을 보여주는 tweak
 - NoAnnoyance - 위치 정확도 위해 Wifi를 켜야 한다는 귀찮은 팝업 없애주는 tweak. (Source:http://repo.pnre.co.vu)
-
 - iFile : Complete souped-up replacement to the built-in Messages application
 - BiteSMS : SMS 즉시 답장 등을 가능하게 해주는 Tweak. (Source:http://test-cydia.bitesms.com)
 - MultiIconMover+ : Enhanced version of MultiIconMover
@@ -42,7 +41,6 @@ tags: ios jailbreak
 - PlanBe QuickAdd (Source:http://cydia.myrepospace.com/jmjeong/)
 - InstaLaunch
 - ClearLockNotification - 당겨서 알림 삭제 Tweak
-
 - Caller - spam 여부 판단 
 
 ## iPad
