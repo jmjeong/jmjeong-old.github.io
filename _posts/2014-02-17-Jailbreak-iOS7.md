@@ -41,6 +41,7 @@ tags: ios jailbreak
 - URLKeeper (Source:http://cydia.myrepospace.com/mywizz/)
 - PlanBe QuickAdd (Source:http://cydia.myrepospace.com/jmjeong/)
 - InstaLaunch
+- ClearLockNotification - 당겨서 알림 삭제 Tweak
 
 - Caller - spam 여부 판단 
 
