@@ -38,8 +38,8 @@ input lunar date with -) and #). -) means by lunar day, and #) means by lunar le
 	** 10/31 : Halloween
 	** 12/25 : Christmas 
 	
-	** -)8/15\[-1,0,1] : Chuseok in Korea
-	** -)1/1\[-1,0,1] : Seol in Korea
+	** -)8/15[-1,0,1] : Chuseok in Korea
+	** -)1/1[-1,0,1] : Seol in Korea
 
 ##### Day of Month(Example: First Sunday of June; like Daylight Saving's Start/End, Martin Luther King's Day)
 
