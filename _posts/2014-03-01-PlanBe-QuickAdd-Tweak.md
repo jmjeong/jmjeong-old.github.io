@@ -25,8 +25,9 @@ PlanBe의 QuickAdd에서 사용되는 [모든 syntax]({% post_url 2014-01-19-Pla
 <!-- 됩니다. -->
 
 BigBoss에서 PlanBe QuickAdd를 검색 후에 인스톨하면 됩니다. 설치 후에 'Preferences-Activator'에서
-호출할 Action을 등록하고 사용하면 됩니다. 
+호출할 Action을 등록하고 사용하면 됩니다.
 
+- [Download Link](http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=planbequickaddDp)
 - Credits : ThereIsPlanBe 위젯을 만들고 공개한 위쯔님께 돌립니다. 
 
 ---
