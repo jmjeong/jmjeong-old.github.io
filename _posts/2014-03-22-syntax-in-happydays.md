@@ -12,7 +12,7 @@ tags: happydays ios
     title,date[d-day]
 
 - `title` and `[d-day]` is optional
-- date format of `date` follows setting in HappyDays app
+- date format of `date` follows date format  in Setting of HappyDays
 - lunar date starts with '-'
 - `/`, `.`, and `-` can be used for delimiter of date
 - `d-day` can be positive and negative
