@@ -16,8 +16,8 @@ tags: happydays ios
 - lunar date starts with '-'
 - `/`, `.`, and `-` can be used for delimiter of date
 - `d-day` can be positive and negative
-  - the number with prefix '+' and '-' **don't** include event day for calculation
-  - the number without prefix '+', '-' **do** include event day for calculation
+  - the number with prefix `+` and `-` **don't** include event day for calculation
+  - the number without prefix `+`, `-` **do** include event day for calculation
 - date **with** year field having d-day specifies only one day
 - date **without** year field having d-day specifies the repetitive days
 
