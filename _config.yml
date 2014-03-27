@@ -2,13 +2,14 @@
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: /:title
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "s3_website.yml"]
 pygments: true
 paginate: 10 # the number of post per page
 safe: true
 markdown: redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+lsi: true
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.

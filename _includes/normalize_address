@@ -1,4 +1,4 @@
-  <script language="Javascript" type="text/javascript">
+<script language="Javascript" type="text/javascript">
   // the standard URL should be used
   var normalized_location;
 normalized_location = "http://" + window.location.host + window.location.pathname;
